@@ -1,0 +1,70 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box; /* Considera a bordar como o tamanho total! */
+}
+
+body{
+  background-color: #ff6961;
+}
+
+header img{
+  display: block;
+  margin: 0 auto;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.generationsButton{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.genButton{
+  color: #FFF;
+  background-color: #6c79db;
+  border-radius: 2rem;
+  padding: .5rem 1rem;
+  margin: auto;
+  backface-visibility: hidden;
+}
+
+.genButton:hover {
+  background-color: #7d89db; 
+  transform: scale(1.05); /* Efeito de escala para dar destaque no hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave no hover */
+}
+
+.generationsButton #allGeneration:hover {
+  background: linear-gradient(45deg, #FF0000, #FFA500, #FFFF00, #008000, #0000FF, #4B0082, #8B00FF);
+  background-size: 600% 100%;
+  animation: rainbowEffect 15s infinite;
+}
+
+@keyframes rainbowEffect {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 600% 0;
+  }
+}
+
+.content {
+  height: 100vh;
+  width: 100vw;
+  padding: 1rem;
+  background-color: #ff6961;
+}
+
+@media screen and (min-width: 1000px){
+  .content{
+    max-width: 1000px;
+    height: auto;
+    margin: 1rem auto;
+    border-radius: 1rem;
+  }
+}
+
