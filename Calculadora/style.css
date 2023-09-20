@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+body {
+  background-color: rgb(109, 173, 152);
+}
+#header h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 25px 25px;
+  background-color: rgb(109, 173, 152);
+}
+
+#calc {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+
+  width: 400px;
+  padding: 0.5em;
+  background-color: #c4c4c4;
+  color: #000;
+}
+
+#calc h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #666;
+}
+
+#operations {
+  text-align: right;
+}
+
+#previous-operation,
+#current-operation {
+  min-height: 1.6em;
+}
+
+#previous-operation {
+  color: black;
+  font-weight: 200;
+  padding: 0.2em;
+  overflow-wrap: break-word;
+  min-height: 1.6em;
+}
+
+#current-operation {
+  min-height: 1.6em;
+  font-size: 3em;
+  font-weight: 700;
+  padding: 0.2em;
+  overflow-wrap: break-word;
+  background-color: white;
+  border: 0.01em solid #777;
+}
+
+#buttons-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 3px;
+}
+
+#buttons-container button {
+  border: 1px solid transparent;
+  border-radius: 0;
+  height: 4em;
+  font-size: 1.2em;
+  background-color: #dbdbdb;
+  cursor: pointer;
+}
+
+#buttons-container .number {
+  background-color: #f3f3f3;
+}
+
+#buttons-container button:hover {
+  background-color: #bababa;
+  border-color: #999;
+}
+
+#buttons-container #equal-btn {
+  grid-column: span 2;
+  background-color: #75a5cb;
+}
+
+#buttons-container #equal-btn:hover {
+  background-color: #3a91d8;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(109, 173, 152); /* Mesma cor de fundo da página */
+  padding: 15px;
+}
+
+.sobre-mim {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sobre-mim li {
+  margin: 0 1em;
+}
+
+.sobre-mim a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s; /* Efeito de transição na mudança de cor */
+}
+.sobre-mim i {
+  font-size: 1.2em;
+  margin-right: 0.5em;
+}
+
+.linkedin:hover{
+  color: rgb(43, 104, 184);
+}
+
+.github:hover{
+  color: black;
+}
+
+
+
+
