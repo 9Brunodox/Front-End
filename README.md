@@ -7,6 +7,7 @@ Aqui estarei apresentando alguns de meus projetos focados na parte do front-end,
 
  - [Pokedex](https://github.com/9Brunodox/Front-End/tree/main/Pokedex)
  - [DoctoreCare](https://github.com/9Brunodox/Front-End/tree/main/DoctorCare)
+ - [Senhor Lei](https://github.com/9Brunodox/Front-End/tree/main/Senhor%20Lei)
 
 ## Stack utilizada
 
