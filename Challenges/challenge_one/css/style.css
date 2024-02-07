@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+
+  background-image: url(/images/pattern-background-desktop.svg);
+  background-color: var(--pale-blue);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 2rem;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombreado somente na parte inferior */
+}
+
+.hero {
+  width: 100%;
+  border-radius: 2rem 2rem 0 0;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 80%;
+  margin: 0 auto; */
+}
+
+.title {
+  padding: 3rem 0 2rem 0;
+  color: var(--dark-blue);
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.description {
+  font-size: 1.5rem;
+  color: var(--desaturated-blue);
+  width: 300px;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.plan-card {
+  display: flex;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-bottom: 3rem;
+  background-color: var(--very-pale-blue);
+}
+
+.payment-plan {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.payment-plan h2 {
+  color: var(--dark-blue);
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.payment-plan p {
+  color: var(--desaturated-blue);
+  font-size: 1.2rem;
+}
+
+.btn-change {
+  margin-left: 6rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.card-dimension {
+  text-align: center;
+}
+
+.btn {
+  padding: 1.2rem;
+  border-radius: 0.65rem;
+  font-size: 1.2rem;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.btn.primary {
+  background-color: var(--bright-blue);
+  color: var(--pale-blue);
+  margin-bottom: 2rem;
+  box-shadow: 0px 3px 10px rgba(114, 128, 167, 0.3);
+}
+
+.btn.cancel {
+  font-weight: 900;
+  margin-bottom: 4rem;
+  color: var(--desaturated-blue);
+}
