@@ -1,0 +1,316 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+}
+
+header{
+  background-color: #fff;
+  margin: 3rem 0;
+}
+
+a{
+  text-decoration: none !important;
+}
+.main__container {
+  margin: 0 35rem;
+}
+
+nav{
+  display: flex;
+  background-color: var(--white-color);
+  text-align: center;
+  justify-content: space-between;
+}
+
+nav a {
+  display: flex;
+  text-decoration: none;
+}
+.company {
+  display: flex;
+  gap: .75rem;
+}
+
+.company a img {
+  width: 8rem;
+}
+
+.company__name{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: .5rem;
+  padding-left: .5rem;
+}
+
+.company__name h2{
+  font-size: 2.5rem;
+}
+
+.company__name p{
+  font-size: 1.5rem;
+  color: var(--blue-color);
+}
+
+.nav__infos{
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.nav__infos a{
+  color: black;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-right: 1.5rem
+}
+
+
+#benefits{
+  background-color: var(--blue-color);
+}
+#benefits__content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.benefits__text{
+  color: var(--white-two);
+}
+
+.benefits__text h2{
+  padding: 3rem 0;
+}
+
+.benefits__image img{
+  margin-left: 15rem;
+  width: 75%;
+}
+
+#firstad{
+  background-color: var(--blue-color-two);
+}
+
+#firstad__content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+.firstad__text{
+  color: white;
+}
+
+.firstad__tableprices-button a button{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: white;
+  background-color: var(--blue-color);
+  font-weight: 900;
+  padding: 2rem 2.5rem;
+  margin: 2rem auto;
+  border: none;
+  border-radius: .5rem;
+  font-size: 1.8rem;
+}
+
+#informations{
+  background-color: #fff;
+  margin: 8rem 0;
+}
+
+#informations__content{
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+.informations__title{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 2.3rem;
+}
+
+.informations__title span{
+  color: var(--blue-color);
+}
+
+.informations__benefits{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.informations__benefits div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.informations__benefits div span{
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.informations__benefits div p{
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.informations__benefits div img{
+  width: 10rem;
+}
+
+#services {
+  padding: 10rem 0;
+  background-color: #f1f3f7;
+}
+
+.services__title h2 {
+  text-align: center;
+  margin-bottom: 7rem;
+  font-size: 3.2rem;
+}
+
+.services__title h2 span {
+  color: #2f86d6;
+}
+
+table {
+  border-radius: .4rem;
+  margin: auto;
+  box-shadow: 0 .2rem 4rem 1.5rem rgba(47,134,214,1);
+}
+
+table thead th {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #fff;
+}
+
+table thead th h3 {
+  margin-bottom: 2rem;
+}
+
+table thead th img {
+  width: 10rem;
+  margin: auto;
+}
+
+table thead th p {
+  max-width: 15rem;
+  margin: auto;
+  padding-top: 1rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #a89f9f;
+}
+
+table tbody td {
+  width: 25rem;
+  max-width: 102.4rem;
+  text-align: center;
+  font-weight: 500;
+  padding: 1.5rem;
+}
+
+.linha-impar {
+  background-color: #f6f6f6;
+}
+
+.linha-par {
+  background-color: #fff;
+}
+
+#secondad{
+  background-color: var(--blue-color);
+  padding: 1rem 0;
+}
+
+#secondad__content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+.secondad__text{
+  color: white;
+}
+
+.secondad__tableprices-button button{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: white;
+  background-color: var(--dark-blue-color);
+  font-weight: 900;
+  padding: 2rem 2.5rem;
+  margin: 2rem auto;
+  border: none;
+  border-radius: .5rem;
+  font-size: 1.8rem;
+}
+
+footer{
+  background-color: #fff;
+}
+
+.footer__company{
+  width: 32rem;
+  position: relative;
+  margin: 7rem auto 4rem;
+}
+
+.footer__company img {
+  width: 80px;
+}
+
+.footer__company div {
+  position: absolute;
+  left: 95px;
+  top: 0;
+}
+
+.footer__company-name p {
+  color: #2f86d6;
+  font-weight: 600;
+}
+
+.footer__contacts {
+  text-align: center;
+  margin-bottom: 50px;
+  line-height: 40px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.container-copyright {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  padding: 20px 0px;
+  background-color: #f1f3f7;
+}
+
+.container-copyright span {
+  color: #2f86d6;
+}
+
+
