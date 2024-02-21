@@ -1,7 +1,7 @@
 # :raising_hand: Meus projetos
 ## Versão: Front-End
 
-Aqui estarei apresentando alguns de meus projetos focados na parte do front-end, onde demonstro minhas habilidades com front-end!
+Aqui estarei apresentando alguns de meus projetos focados na parte web, onde demonstro minhas habilidades com front-end!
 
 ## Projetos:
 
